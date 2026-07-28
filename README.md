@@ -1,7 +1,7 @@
-<h3 align="center">Applied AI Engineer • Full Stack Developer</h3>
+<h3 align="center">AI Engineer • Production LLM Systems & Agentic Workflows</h3>
 
 <p align="center">
-I build production-ready systems where LLMs meet real-world software — agents, RAG pipelines, and the full stack underneath them.
+Building RAG pipelines, multi-agent systems, and transformer-based models — from client-facing products down to models trained from scratch.
 </p>
 
 <p align="center">
@@ -14,45 +14,51 @@ I build production-ready systems where LLMs meet real-world software — agents,
 
 <br>
 
-### What I'm building toward
+### Summary
 
-I work at the application layer — agents, RAG, tool-calling — but I'm going deeper into how the models underneath actually work: transformer internals, fine-tuning, and evaluation. The goal isn't just to *use* LLMs, it's to understand them well enough to build on top of them with real judgment.
+AI Engineer specializing in production LLM systems, agentic workflows, and transformer-based models — RAG pipelines, multi-agent applications, and full-stack AI products for clients. Recently trained and deployed a transformer language model from scratch in PyTorch. Currently advancing into post-training: fine-tuning, LoRA, quantization, and evaluation.
 
 <br>
 
 ### Featured Projects
 
-**[ArXiv Literature Review Synthesizer](https://github.com/IbrahimKhan7208/RLM-ArxivSynthesizer)**
-A recursive language model (RLM) system that synthesizes literature reviews from ArXiv papers — built from scratch in Python with no LLM frameworks, using parallel sub-agent dispatch for reasoning over long context.
-`Python` `Groq API` `ThreadPoolExecutor` `RLM Architecture`
+**[Investment Research Bot](https://github.com/IbrahimKhan7208/investment-research-bot)** — Multi-Agent Financial Research System
 
-**[Investment Research Agent](https://github.com/IbrahimKhan7208/investment-research-bot)**
-A multi-agent research system that gathers market data, retrieves financial context, and produces structured investment analysis through multi-step reasoning.
-`LangGraph` `LangChain` `RAG` `Pinecone` `Cohere Rerank` `Yahoo Finance API`
+Combines SEC filing RAG, Tavily web search, and live Yahoo Finance data into structured, citation-backed reports across 3 data sources in under 30 seconds per query, via a conditional LangGraph workflow that routes sub-tasks to specialized tools (RAG / WEB / STOCK).
+`React` `Node.js` `LangChain` `LangGraph` `Pinecone` `Cohere Rerank` `Tavily`
 
-**[TinyStories Transformer](https://github.com/IbrahimKhan7208/minillm-tinystories)**
-A decoder-only transformer language model trained from scratch in PyTorch — RoPE, RMSNorm, Grouped Query Attention, and a SwiGLU FFN, trained on ~1M TinyStories.
-`PyTorch` `Transformers` `BPE Tokenizer`
+**[Transformer Language Model - From Scratch](https://github.com/IbrahimKhan7208/minillm-tinystories)** · [Hugging Face](https://huggingface.co/IbrahimKhan7208/minillm-tinystories) · [Live Demo](https://huggingface.co/spaces/IbrahimKhan7208/minillm-tinystories-demo)
 
-**[RAG Customer Support Assistant](https://github.com/IbrahimKhan7208/Customer-Support-Bot)**
-A retrieval-augmented chatbot that answers organization-specific questions from proprietary docs, with semantic search and conversation memory.
-`FastAPI` `Pinecone` `Gemini Embeddings` `Groq`
+An 18.5M-parameter transformer trained on ~220M tokens (1M TinyStories) with a custom 16k byte-level BPE tokenizer, complete training pipeline written in raw PyTorch. Implements RoPE, Grouped Query Attention, RMSNorm, and SwiGLU; deployed with an interactive Gradio demo on Hugging Face.
+`PyTorch` `Hugging Face` `BPE` `RoPE` `GQA` `RMSNorm` `SwiGLU`
+
+**[ArXiv Research Synthesizer](https://github.com/IbrahimKhan7208/RLM-ArxivSynthesizer)** — Recursive LLM Orchestration Pipeline
+
+Recursive LLM pipeline generating structured literature reviews from ArXiv, parallelizing summarization via ThreadPoolExecutor to process 50+ papers per run at ~60% faster turnaround than sequential. The LLM self-executes code in a Python REPL reasoning loop with rolling memory and parallel task coordination.
+`Python` `Groq API (Llama 3.3-70B)` `ThreadPoolExecutor` `ArXiv API`
+
+<br>
+
+### Experience
+
+**AI Engineer — Freelance (Upwork)** · Oct 2025 – Present
+Independently built a full-stack AI wellness platform (MERN + Groq LLM + JWT) with structured LLM output pipelines, schema validation, personalized user-context-aware guidance modules, and a privacy-conscious architecture — rated 5★ on Upwork.
 
 <br>
 
 ### Core Stack
 
-**AI/ML:**
-LangChain · LangGraph · RAG · Agentic Workflows · Vector DBs (Pinecone) · PyTorch · Transformers · Fine-tuning *(learning)*
+**AI / Agentic Systems**
+LangChain · LangGraph · RAG · Multi-hop RAG · Agentic Workflows · Tool Calling · Prompt Engineering
 
-**Backend:**
-Node.js · Express · MongoDB · REST APIs · JWT
+**LLM & Deep Learning**
+PyTorch · Transformers · Neural Networks · Attention · Multi-Head Attention · GQA · RoPE · RMSNorm · SwiGLU · Autograd · Hugging Face
 
-**Frontend:**
-React · TypeScript · Tailwind CSS
+**Vector & Data**
+Pinecone · Cohere Rerank · MongoDB · MySQL · Tavily Search · OpenAI API · Gemini API · Groq API
 
-**Tooling:**
-Git · Docker *(learning)* · Vercel · Postman
+**Backend & Frontend**
+Python · FastAPI · Node.js · Express.js · React.js · TypeScript · Tailwind CSS · REST APIs · JWT · Git
 
 <br>
 
