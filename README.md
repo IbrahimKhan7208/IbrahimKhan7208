@@ -48,16 +48,16 @@ Independently built a full-stack AI wellness platform (MERN + Groq LLM + JWT) wi
 
 ### Core Stack
 
-**AI / Agentic Systems**
+**AI / Agentic Systems:**
 LangChain · LangGraph · RAG · Multi-hop RAG · Agentic Workflows · Tool Calling · Prompt Engineering
 
-**LLM & Deep Learning**
+**LLM & Deep Learning:**
 PyTorch · Transformers · Neural Networks · Attention · Multi-Head Attention · GQA · RoPE · RMSNorm · SwiGLU · Autograd · Hugging Face
 
-**Vector & Data**
+**Vector & Data:**
 Pinecone · Cohere Rerank · MongoDB · MySQL · Tavily Search · OpenAI API · Gemini API · Groq API
 
-**Backend & Frontend**
+**Backend & Frontend:**
 Python · FastAPI · Node.js · Express.js · React.js · TypeScript · Tailwind CSS · REST APIs · JWT · Git
 
 <br>
