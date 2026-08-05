@@ -22,7 +22,7 @@ AI Engineer specializing in production LLM systems, agentic workflows, and trans
 
 ### Featured Projects
 
-**[Investment Research Bot](https://github.com/IbrahimKhan7208/investment-research-bot)** — Multi-Agent Financial Research System
+**[Investment Research Bot](https://github.com/IbrahimKhan7208/investment-research-bot)** — Multi-Agent Financial Research System  · [Live Demo](https://investment-research-bot.vercel.app)
 
 Combines SEC filing RAG, Tavily web search, and live Yahoo Finance data into structured, citation-backed reports across 3 data sources in under 30 seconds per query, via a conditional LangGraph workflow that routes sub-tasks to specialized tools (RAG / WEB / STOCK).
 `React` `Node.js` `LangChain` `LangGraph` `Pinecone` `Cohere Rerank` `Tavily`
